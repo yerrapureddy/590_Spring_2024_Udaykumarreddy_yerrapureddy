@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['bicycle', 'bus', 'car', 'motorcycle', 'other vehicle', 'pedestrian', 'rider', 'traffic light', 'traffic sign', 'train', 'truck']
+
+roboflow:
+  workspace: bddsample2
+  project: rmsw_5k_night-riwja
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bddsample2/rmsw_5k_night-riwja/dataset/1
